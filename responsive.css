@@ -1,0 +1,106 @@
+@media only screen and (max-width: 700px) {
+  nav {
+    padding: 12px 18px;
+  }
+  nav .fa-bars {
+    display: block;
+  }
+  nav ul {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background: white;
+    padding: 10px 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    
+  }
+  nav #toggler:checked ~ ul{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  nav ul li {
+    background: white;
+    display: block;
+   font-size: 14px;
+   font-weight: 700;
+  }
+  .mouse{
+    display: none;
+  }
+  .sect-2 .content p {
+    width: 100%;
+  }
+  .about-content {
+    padding: 0 20px;
+  }
+  .Skills {
+    margin-top: 80px;
+    padding: 0 20px;
+  }
+  .sect-2 .icons {
+    display: none;
+  }
+  .sect-2 .content {
+    padding: 0 20px;
+  }
+  .sect-2 .content h1 {
+    font-size: 45px;
+  }
+  .no-color {
+    padding: 0 20px;
+  }
+
+  .main-content .project-content .text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-content .project-content .text {
+    width: 100%;
+  }
+  .width100 {
+    width: 100%;
+  }
+  .content p {
+    font-size: 1.1rem;
+  }
+  .contact p {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+  .about .first {
+    width: 90%;
+    font-size: 1.1rem;
+  }
+
+  footer {
+    padding: 20px 60px;
+  }
+  footer .final {
+    display: block;
+    flex-wrap: wrap;
+  }
+  footer .final .social {
+    order: 1;
+    display: block;
+  }
+
+  footer .final .sm-text p {
+    width: 100%;
+  }
+  footer .lower {
+    padding: 30px 0px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .img3 img {
+    width: 100%;
+  }
+}
